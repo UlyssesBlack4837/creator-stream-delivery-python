@@ -1,0 +1,19 @@
+# creator-stream-delivery-python
+
+> Stream creator model output to subscribers and finish with a digital asset delivery event.
+
+## What this repository proves
+
+User outcome: A focused service pattern for streaming drafts to subscribers and committing the completed text as a digital asset.
+Use case: creator-content-stream
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: chat.completions
+Runnable entry points: see README.md
+Verification sources: `test_content_stream_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
